@@ -12,4 +12,4 @@ How to Use
 5. Choose xsg files and channels (to choose multiple files/channels, click while pressing Shift).
 If you choose multiple files, the average of the traces is shown (they of course need to be the same length).
 6. If this software is useful to you, I would appreciate it if you acknowledged it with
-the URL (https://github.com/tarokiritani/jWhisktracker).
+the URL (https://github.com/tarokiritani/xsgBrowser).

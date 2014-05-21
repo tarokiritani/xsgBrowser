@@ -253,5 +253,9 @@ function exportSelected_Callback(hObject, eventdata, handles)
 % hObject    handle to exportSelected (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+output = '';
+for k = 1:length(handles.multChannels) 
+    output = [output, handles.multChannels{k,1}, ', ', num2str(handles.multChannels{k,2}), '; '];
+end
 
-keyboard
+output
